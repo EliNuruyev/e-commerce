@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pagination li a{
+    display: block;
+    min-width: 45px;
+    min-height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 2px solid #bfbfbf;
+    color: #bfbfbf;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.4s all;
+
+
+}
+.pagination li a:hover{
+    background-color: #e700fc;
+    color: white;
+    border-color: #e700fc;
+}
+
+.pagination .selected .active {
+    background-color:#e700fc;
+    color: white;
+    border: 2px solid #e700fc;
+    
+}
